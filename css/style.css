@@ -1,0 +1,75 @@
+a img{    
+    width: 300px;
+    padding-top: 0.7em;
+}
+.text-property, h2, h1{
+    font-family: 'Bebas Neue', cursive;
+}
+#profile-image img{
+    width: 400px;
+}
+.price{
+    color: #76c27e;
+}
+.btn-property{
+    background-color: #2A1E59;
+    border-radius: 10px;
+    border: 0em;
+    font-size: 15px;
+    font-weight: 600;
+}
+.backpack-card{
+    border: 0em;
+}
+.thumbnail img{
+    width: 100px;
+    padding: 10px;
+    margin-top: 0.7em;
+}
+.thumb-card{   
+    border: 0em;
+}
+#shop-image img{
+    width: 550px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.card-image img{
+    border-radius: 10px;
+    border: 0em;
+    background-color: lightgray;
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.card-image{
+    border: 0em;
+    background-color: white;
+}
+.bag-btn{
+    margin-left: 140px;
+     
+}
+.thumb-image img{
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+@media (max-width:768px){
+    .card-image{
+        width: 100%;
+        flex-direction: column;
+    }
+    .sec1{
+        flex-direction: column;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+    #shop-image{
+        width: 100%;
+        padding: 10%;
+        margin-right: 50px;
+    } 
+}
+
